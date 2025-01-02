@@ -387,6 +387,11 @@ h1 span {
   margin-bottom: 20px;
 }
 
+h4 a{
+  text-decoration: none;
+  color: #00ff5f;
+}
+
 /* Author Section */
 .author {
   display: flex;
@@ -456,7 +461,7 @@ h1 span {
 
 /* Active FAQ State */
 .faq-item.active .faq-answer {
-  max-height: 150px; /* Adjust as needed */
+  max-height: 100vh;
 }
 
 .faq-item.active .faq-icon {
@@ -784,7 +789,7 @@ button:hover {
   #faq-section {
     padding: 50px 10px;
     color: #fff;
-    min-width: 100vw;;
+    min-width: 100vw;
   }
 
   .faq-question {
